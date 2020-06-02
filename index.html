@@ -2,19 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
 
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
+  <main>
+    <div class="first">
+      <img src="./images/logo.svg" id="logo" alt="logo">
+      <div class="icons">
+        <div class="icon-back">
+          <img src="./images/icon-document.svg" alt="document" class="icon">
+        </div>
+        <div class="icon-back">
+          <img src="./images/icon-folder.svg" alt="folder" class="icon">
+        </div>
+        <div class="icon-back">
+          <img src="./images/icon-upload.svg" alt="upload" class="icon">
+        </div>
+      </div>
+    </div>
+    
+    <div class="second">
+      <h1>You’ve used <span>815 GB</span> of your storage</h1>
+      <div id="bar">
+        <div>
+          <div id="circle"></div>
+        </div>
+      </div>
+      <div class="popup">
+          <div class="bold">185</div>
+          <div>GB Left</div>
+          <div class="triangle"></div>
+      </div>
+      
+      <div id="marking">
+        <p>0 GB</p>
+        <p>1000 GB</p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
