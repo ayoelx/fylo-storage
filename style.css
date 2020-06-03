@@ -23,7 +23,7 @@ body {
     background-image: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100% 50%;
+    background-size: 100% 55%;
     background-color: var(--very-dark-blue);
     height: 100vh;
     display: flex;
@@ -38,7 +38,7 @@ body {
 main {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .first {
