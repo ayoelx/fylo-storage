@@ -134,6 +134,7 @@ h1 span {
     color: var(--grayish-blue);
     display: flex;
     align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 .triangle {
